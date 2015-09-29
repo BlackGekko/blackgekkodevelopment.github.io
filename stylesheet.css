@@ -1,4 +1,11 @@
-nav {
-  text-decoration:none;
-  text-align:inline;
+.mainHeader nav ul li {
+  text-decoration: none;
+  display: inline;
+}
+
+.mainheader img {
+    width: 100%;
+    height: auto;
+    margin: 2%, 0;
+    border-radius: 5px;
 }
