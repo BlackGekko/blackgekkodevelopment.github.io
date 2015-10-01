@@ -12,7 +12,10 @@
 
 .homeTop img {
   width: 80%;
-  height: auto;
-  margin: 2%, 0;
+  height: auto:
   border-radius: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
 }
