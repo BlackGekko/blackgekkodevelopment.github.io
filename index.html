@@ -23,41 +23,50 @@
   	<div class = "homeContent">
   		<header>
   			<h2>What we do!</h2>
-  			<img src ="#"><br>
+  			<img src ="#" alt="#"><br>
   		</header>
   		
   		<div class = "planOptions">
   			<div id ="Section1">
-				<button id ="planInfo1">Get more information</button>
 				<img src ="#" alt="#">
 				<h2>Front-End Development</h2>
 				<p>Black Gekko Development specilizes in front-end design, this means we code in HTML, CSS, and Javascript.</p>
-                	</div>
+				<button id ="planInfo1">Get more information</button>
+            </div>
                 	
-                	<div id ="Section2">
-                		<button id ="planInfo2">Get more information</button>
+            <div id ="Section2">
   				<img src ="#" alt="#">
   				<h2>Your Content</h2>
   				<p>With Black Gekko Development your the project manager, we let you tell us what you need in your site, and we make it happen.</p>
-      			</div>
+  				<button id ="planInfo2">Get more information</button>
+
+      		</div>
       			
-      			<div id ="Section3">
-  				<button id ="planInfo3">Get more information</button>
-  				<img src ="#" alt="#">
+      		<div id ="Section3">
+   				<img src ="#" alt="#">
   				<h2>Low Price</h2>
   				<p>With our payment plans specilized to your wants and needs, you avoid paying for code and design you dont need.</p>
+  				<button id ="planInfo3">Get more information</button>
   			</div>
   		</div>
   		
-  		<content>
+  		<div class="information">
   			<p>We are here to build a better web, we offer low priced website creation witch can be edited to your wants or needs.</p>
   			<p>Our organization is looking to make the web better, and our effort to do so will be by offering an amazing price for the creation of your website. Unlike other paid website creation software, you make the decisions on what design your website is, and what content you display on your own site.</p>
   			<p>No more being frustrated over unappealing templates, or helpless computer automated chat.</p>
-  		</content>
+  		</div>
   	</div>
   	<footer class = "homeFooter">
   	  <p>Copyright © Black Gekko Development</p>
   	  <p> <a href ="login.html">Login</a></p>
   	</footer>
+  	
+  	<script>
+  		$(document).ready(function() {
+			$('planInfo1').mouseenter(function() {
+			$(this).effect('bounce', 500);
+			});
+		});
+	</script>
   </body>
 </html>
