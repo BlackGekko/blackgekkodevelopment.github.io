@@ -6,6 +6,11 @@
     <meta charset="utf-8"/>
     <link type = "text/css" rel = "stylesheet" href = "stylesheet.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <style type="text/css">
+	.auto-style1 {
+		margin-left: 0px;
+	}
+	</style>
   </head>
   
   <body class = "body">
@@ -13,10 +18,10 @@
   		<img src = "https://cloud.githubusercontent.com/assets/14165485/10176345/f94f6c4a-66a8-11e5-927d-1b0242340079.jpg" alt="Black Gekko Development Logo">
   		
   		<nav><ul>
-  			<li id = "navButton1" class = "active"><a href = "index.html">Home</a></li>
-  			<li id = "navButton2"> <a href = "about.html">About</a></li>
-  			<li id = "navButton3"> <a href = "pricing.html">Pricing</a></li>
-  			<li id = "navButton4"> <a href = "contact.html">Contact</a></li>
+  			<li id = "navButton1" class = "active"><a href = "index.html">Home</a> </li>
+  			<li id = "navButton2"> <a href = "about.html">About</a> </li>
+  			<li id = "navButton3"> <a href = "pricing.html">Pricing</a> </li>
+  			<li id = "navButton4"> <a href = "contact.html">Contact</a> </li>
   		</ul></nav>
   	</header>
   	
@@ -27,46 +32,38 @@
   		</header>
   		
   		<div class = "planOptions">
-  			<div id ="Section1">
-				<img src ="#" alt="#">
+  			<div id ="Section1" style="width: 373px">
 				<h2>Front-End Development</h2>
 				<p>Black Gekko Development specilizes in front-end design, this means we code in HTML, CSS, and Javascript.</p>
 				<button id ="planInfo1">Get more information</button>
-            </div>
-                	
-            <div id ="Section2">
-  				<img src ="#" alt="#">
+			</div>
+			
+			<div id ="Section2" style="width: 373px">
   				<h2>Your Content</h2>
   				<p>With Black Gekko Development your the project manager, we let you tell us what you need in your site, and we make it happen.</p>
   				<button id ="planInfo2">Get more information</button>
-
-      		</div>
-      			
-      		<div id ="Section3">
-   				<img src ="#" alt="#">
+			</div>
+            
+      		<div id ="Section3" class="auto-style1" style="width: 373px">
   				<h2>Low Price</h2>
   				<p>With our payment plans specilized to your wants and needs, you avoid paying for code and design you dont need.</p>
   				<button id ="planInfo3">Get more information</button>
-  			</div>
-  		</div>
-  		
-  		<div class="information">
-  			<p>We are here to build a better web, we offer low priced website creation witch can be edited to your wants or needs.</p>
-  			<p>Our organization is looking to make the web better, and our effort to do so will be by offering an amazing price for the creation of your website. Unlike other paid website creation software, you make the decisions on what design your website is, and what content you display on your own site.</p>
-  			<p>No more being frustrated over unappealing templates, or helpless computer automated chat.</p>
+  			</div>	   
   		</div>
   	</div>
+  		
+  	<div class="information">
+   		<p>&nbsp;</p>      		
+      	<p>&nbsp;</p>
+		<p>&nbsp;</p>
+		<p>We are here to build a better web, we offer low priced website creation witch can be edited to your wants or needs.</p>
+  		<p>Our organization is looking to make the web better, and our effort to do so will be by offering an amazing price for the creation of your website. Unlike other paid website creation 				software, you make the decisions on what design your website is, and what content you display on your own site.</p>
+  		<p>No more being frustrated over unappealing templates, or helpless computer automated chat.</p>
+  	</div>
+  	
   	<footer class = "homeFooter">
   	  <p>Copyright © Black Gekko Development</p>
   	  <p> <a href ="login.html">Login</a></p>
   	</footer>
-  	
-  	<script>
-  		$(document).ready(function() {
-			$('planInfo1').mouseenter(function() {
-			$(this).effect('bounce', 500);
-			});
-		});
-	</script>
   </body>
 </html>

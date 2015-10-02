@@ -1,4 +1,4 @@
-.mainHeader nav ul li {
+﻿.mainHeader nav ul li {
   text-decoration: none;
   display: inline;
 }
@@ -19,3 +19,25 @@
   margin-right: auto;
 
 }
+
+.planOptions #Section1 {
+	clear: both;
+	float:left;
+	text-align:center;
+}
+
+.planOptions #Section2{
+	clear: both;
+	float:right;
+	text-align:center;
+
+}
+
+.planOptions #Section3{
+	clear: both;
+	float:right;
+	text-align:center;
+
+}
+
+
