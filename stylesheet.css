@@ -21,23 +21,15 @@
 }
 
 .planOptions #Section1 {
-	clear: both;
 	float:left;
-	text-align:center;
 }
 
 .planOptions #Section2{
-	clear: both;
-	float:right;
-	text-align:center;
-
+	float:left;
 }
 
 .planOptions #Section3{
-	clear: both;
-	float:right;
-	text-align:center;
-
+	float:left;
 }
 
 
