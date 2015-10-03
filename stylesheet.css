@@ -12,7 +12,7 @@
 
 .homeTop img {
   width: 100%;
-  height: ;
+  height: auto;
   border-radius: 5px;
   display: block;
   margin-left: auto;
@@ -22,14 +22,19 @@
 
 .planOptions #Section1 {
 	float:left;
+	margin:auto;
+	margin-left: 20px;
 }
 
 .planOptions #Section2{
 	float:left;
+	margin:auto;
+	margin-left: 20px;
 }
 
 .planOptions #Section3{
 	float:left;
+	margin-left: 20px;
 }
 
 
