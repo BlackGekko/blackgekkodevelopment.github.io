@@ -1,4 +1,28 @@
-body {
+﻿body {
     margin:0;
     padding: 0;
+}
+#Holder {
+	width:980px;
+	height:auto;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:21px;
+	margin-bottom:21px;
+}
+#Header {
+	height:120px;
+	background-image:url('Logos/f94f6c4a-66a8-11e5-927d-1b0242340079.jpg');
+	background-repeat:no-repeat;
+	margin-bottom:11px;
+}
+#NavBar {
+	height:60px;
+	background-color:black;
+}
+#Content {
+	height:600px;
+}
+#Footer {
+	height:100px;
 }

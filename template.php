@@ -11,6 +11,19 @@
         <title></title>
     </head>
     <body>
-        
+        <div id="Holder">
+        	<div id="Header"></div>
+        	<div id="NavBar">
+        		<nav>
+        			<ul>
+        				<li><a href="#">Login</a></li>
+        				<li><a href="#">Register</a></li>
+        				<li><a href="#">Forgot Password</a></li>
+        			</ul>
+        		</nav>
+        	</div>
+        	<div id="Content"></div>
+        	<div id="Footer"></div>
+        </div>
     </body>
 </html>
