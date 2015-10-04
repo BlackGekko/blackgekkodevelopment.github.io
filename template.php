@@ -1,7 +1,3 @@
-<?php
-
-?>
-
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -22,7 +18,15 @@
         			</ul>
         		</nav>
         	</div>
-        	<div id="Content"></div>
+        	<div id="Content">
+        		<div id="PageHeading">
+					<h1>Page Heading</h1>
+				</div>
+        		<div id="ContentLeft">
+					<h2>Your Messgae Here</h2>
+				</div>
+        		<div id="ContentRight"></div>
+        	</div>
         	<div id="Footer"></div>
         </div>
     </body>

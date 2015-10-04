@@ -23,6 +23,31 @@
 #Content {
 	height:600px;
 }
+#PageHeading {
+	height:auto;
+	padding:11px;
+}
+#ContentLeft {
+	width:280px;
+	float:left;
+	padding-left:11px;
+	padding-top:11px;
+}
+#ContentRight {
+	width:680px;
+	float:right;
+}
+
 #Footer {
 	height:100px;
+}
+h1 {
+	margin:0;
+	font-weight:lighter;
+	color:black;
+}
+h2 {
+	margin:0;
+	font-weight:lighter;
+	color:black
 }
