@@ -21,7 +21,9 @@
 	background-color:black;
 }
 #Content {
-	height:600px;
+	height:auto;
+	clear:both;
+	overflow:auto;
 }
 #PageHeading {
 	height:auto;
@@ -49,5 +51,11 @@ h1 {
 h2 {
 	margin:0;
 	font-weight:lighter;
-	color:black
+	color:black;
+}
+h6 {
+	margin:0;
+	font-weight:lighter;
+	color:black;
+	font-size:14px;
 }

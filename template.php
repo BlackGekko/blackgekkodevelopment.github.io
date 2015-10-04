@@ -23,7 +23,8 @@
 					<h1>Page Heading</h1>
 				</div>
         		<div id="ContentLeft">
-					<h2>Your Messgae Here</h2>
+					<h2>Your Messgae Here</h2><br>
+					<h6>Your Message</h6>
 				</div>
         		<div id="ContentRight"></div>
         	</div>
