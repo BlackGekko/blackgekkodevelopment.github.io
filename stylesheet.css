@@ -1,8 +1,29 @@
-﻿.mainHeader nav ul li {
-  text-decoration: none;
-  display: inline;
+﻿nav ul {
+	margin:0;
+	padding:0;
 }
-
+nav ul li {
+	list-style-type:none;
+	float:left;
+	display:block;
+	width:150px;
+	height:60px;
+	text-align:center;
+	line-height:55px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:17px;
+}
+nav ul li a {
+	text-decoration:none;
+	color:black;
+}
+nav ul li:hover {
+	background-color:#003cff;
+}
+nav ul li:hover a {
+	display:block;
+	color:white;
+}
 .mainheader img {
     width: 100%;
     height: auto;
@@ -19,31 +40,51 @@
   margin-right: auto;
 
 }
+.planOptions {
+	display:inline-block;
+}
 
 .planOptions #Section1 {
-	float:left;
 	margin:auto;
 	margin-left: 20px;
+	font-family:Arial, Helvetica, sans-serif;
+	float:left;
 }
 
 .planOptions #Section2{
-	float:left;
 	margin:auto;
 	margin-left: 20px;
+	font-family:Arial, Helvetica, sans-serif;
+	float:left;
 }
 
 .planOptions #Section3{
-	float:left;
 	margin-left: 20px;
+	font-family:Arial, Helvetica, sans-serif;
+	float:left;
 }
 
 .information {
 	float:left;
 	clear:both;
+	font-family:Arial, Helvetica, sans-serif;
 }
 
 .homeFooter {
 	float:left;
 	clear:both;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:center;
 }
+h2 {
+	font-family:Arial, Helvetica, sans-serif;
+}
+.Navigation {
+	height:50px;
+	text-decoration:none;
+}
+.homeContent {
+	text-align:center;
+}
+
 
