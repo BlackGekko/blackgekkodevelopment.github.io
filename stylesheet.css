@@ -77,6 +77,10 @@ nav ul li:hover a {
 	font-family:Arial, Helvetica, sans-serif;
 	text-align:center;
 }
+.homefooter a {
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+}
 h2 {
 	font-family:Arial, Helvetica, sans-serif;
 }
