@@ -87,6 +87,7 @@ h2 {
 .Navigation {
 	height:50px;
 	text-decoration:none;
+	background-color:#444;
 }
 .homeContent {
 	text-align:center;
