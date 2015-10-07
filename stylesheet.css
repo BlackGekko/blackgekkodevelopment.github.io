@@ -16,10 +16,10 @@ nav ul li {
 }
 nav ul li a {
 	text-decoration:none;
-	color:black;
+	color:white;
 }
 nav ul li:hover {
-	background-color:#003cff;
+	background-color:#888;
 }
 nav ul li:hover a {
 	display:block;
@@ -46,23 +46,30 @@ nav ul li:hover a {
 }
 
 .planOptions #Section1 {
+	border-radius:5px;
 	margin:auto;
 	margin-left: 20px;
+	margin-bottom:20px;
 	font-family:Arial, Helvetica, sans-serif;
 	float:left;
 	background-color:#888;
 }
 
 .planOptions #Section2{
+	border-radius:5px;
 	margin:auto;
 	margin-left: 20px;
+	margin-bottom:20px;
 	font-family:Arial, Helvetica, sans-serif;
 	float:left;
 	background-color:#888;
 }
 
 .planOptions #Section3{
+	border-radius:5px;
+	margin:auto;
 	margin-left: 20px;
+	margin-bottom:20px;
 	font-family:Arial, Helvetica, sans-serif;
 	float:left;
 	background-color:#888;
@@ -81,12 +88,14 @@ nav ul li:hover a {
 	clear:both;
 	font-family:Arial, Helvetica, sans-serif;
 	text-align:center;
-	background-color:#888;
+	background-color:#003cff;
 	width:100%;
+	color:white;
 }
 .homefooter a {
 	float:left;
 	font-family:Arial, Helvetica, sans-serif;
+	color:white;
 }
 h2 {
 	font-family:Arial, Helvetica, sans-serif;
@@ -94,7 +103,8 @@ h2 {
 .Navigation {
 	height:60px;
 	text-decoration:none;
-	background-color:#888;
+	background-color:#003cff;
+	border-radius:5px;
 }
 .homeContent {
 	text-align:center;
@@ -107,6 +117,9 @@ h2 {
 #planInfo1 a {
 	text-decoration:none;
 }
+#planInfo1 a:visited {
+	color:#003cff;
+}
 #planInfo2 {
 	color:#003cff;
 	background-color:white;
@@ -115,6 +128,9 @@ h2 {
 #planInfo2 a {
 	text-decoration:none;
 }
+#planInfo2 a:visited {
+	color:#003cff;
+}
 #planInfo3 {
 	color:#003cff;
 	background-color:white;
@@ -122,4 +138,7 @@ h2 {
 }
 #planInfo3 a {
 	text-decoration:none;
+}
+#planInfo3 a:visited {
+	color:#003cff;
 }
