@@ -50,6 +50,7 @@ nav ul li:hover a {
 	margin-left: 20px;
 	font-family:Arial, Helvetica, sans-serif;
 	float:left;
+	background-color:#888;
 }
 
 .planOptions #Section2{
@@ -57,12 +58,14 @@ nav ul li:hover a {
 	margin-left: 20px;
 	font-family:Arial, Helvetica, sans-serif;
 	float:left;
+	background-color:#888;
 }
 
 .planOptions #Section3{
 	margin-left: 20px;
 	font-family:Arial, Helvetica, sans-serif;
 	float:left;
+	background-color:#888;
 }
 
 .information {
@@ -72,10 +75,13 @@ nav ul li:hover a {
 }
 
 .homeFooter {
+	height:60px;
 	float:left;
 	clear:both;
 	font-family:Arial, Helvetica, sans-serif;
 	text-align:center;
+	background-color:#888;
+	width:100%;
 }
 .homefooter a {
 	float:left;
@@ -93,11 +99,26 @@ h2 {
 	text-align:center;
 }
 #planInfo1 {
-	color:#003cff
+	color:#003cff;
+	background-color:white;
+	border-radius:7px;
+}
+#planInfo1 a {
+	text-decoration:none;
 }
 #planInfo2 {
-	color:#003cff
+	color:#003cff;
+	background-color:white;
+	border-radius:7px;
+}
+#planInfo2 a {
+	text-decoration:none;
 }
 #planInfo3 {
-	color:#003cff
+	color:#003cff;
+	background-color:white;
+	border-radius:7px;
+}
+#planInfo3 a {
+	text-decoration:none;
 }
