@@ -1,3 +1,30 @@
+nav ul {
+	margin:0;
+	padding:0;
+}
+nav ul li {
+	list-style-type:none;
+	float:left;
+	display:block;
+	width:150px;
+	height:60px;
+	text-align:center;
+	line-height:55px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:617px;
+	border-radius:7px;
+}
+nac ul li a {
+	text-decoration:none;
+	color:white;
+}
+nav ul li:hover {
+	background-color:#888;
+}
+nav ul li:hover a {
+	display:block;
+	color:white;
+}
 ﻿.aboutHeader1 .aboutHeader2 {
 	float:left;
 }
@@ -8,4 +35,13 @@
 
 .aboutFooter {
 	float:left;
+}
+.Navigation {
+	height:60px;
+	text-decoration:none;
+	background-color:#003cff;
+	border-radius:7px;
+}
+.active {
+	background-color:#888;
 }
