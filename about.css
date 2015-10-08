@@ -25,6 +25,7 @@ nav ul li:hover {
 nav ul li:hover a {
 	display:block;
 	color:white;
+	text-decoration:none;
 }
 ﻿.aboutHeader1 .aboutHeader2 {
 	float:left;
