@@ -1,10 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+     <meta charset="utf-8"/>
+     <link type="text/css" rel="stylesheet" href="login.css">
+    </head>
+	
+    <body>
+    	
+        <header>
+        	<img src="https://cloud.githubusercontent.com/assets/14165485/10176345/f94f6c4a-66a8-11e5-927d-1b0242340079.jpg" alt="Black Gekko Development Logo">
+        </header>
+        
+    	<div class ="Navigation">
+  		<nav><ul>
+  			<li id = "navButton1" class = "active"><a href = "index.html">Home</a></li>
+  			<li id = "navButton2"> <a href = "about.html">About</a></li>
+  			<li id = "navButton3"> <a href = "pricing.html">Pricing</a></li>
+  			<li id = "navButton4"> <a href = "contact.html">Contact</a></li>
+            		<li id = "navButton5"> <a href = "Login.html">Login</a></li>
+  		</ul></nav>
+      </div>
+        
+    	<h1>Welcome Gekko Employees, Please Sign In!</h1>
 <form name="loginForm" id="loginForm" action="https://blackgekko.teamwork.com/" method="post">
 <input type="hidden" name="action" value="login">
 
-<div>
+<div class="login">
 <label for="userLogin">Username:</label><br /><input type="text" name="userLogin" id="userLogin" /><br />
 <label for="password">Password:</label><br /><input type="password" name="password" id="password" /><br />
 
 <input type="submit" value="Login" />
 </div>
 </form>
+		<p>Questions or Concers? check out the contact page and give us a holler!</p>
+        
+        <footer class = "homeFooter">
+  	  		<p>Copyright © Black Gekko Development</p>
+  		</footer>
+	</body>
+</html>
