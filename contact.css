@@ -1,1 +1,15 @@
-
+.disclaimer {
+  float:left;
+}
+.disclaimer p {
+  font-size:8px;
+}
+.supportContact {
+  text-align:center;
+  background-color:#888;
+  
+}
+.businessContact {
+  text-align:center;
+  background-color:#888;
+}
