@@ -107,7 +107,7 @@ h2 {
 	background-color:#003cff;
 	border-radius:7px;
 }
-.active {
+.navActive {
 	background-color:#888;
 }
 .homeContent {
@@ -146,3 +146,7 @@ h2 {
 #planInfo3 a:visited {
 	color:#003cff;
 }
+.carousel-caption h3 p {
+	color:#888;	
+}
+
