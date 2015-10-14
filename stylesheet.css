@@ -82,19 +82,39 @@ nav ul li:hover a {
 }
 
 .homeFooter {
+	background-color:#CCC;
+	border:solid;
+	margin-top:20px;
+	border-radius:7px;
 	height:auto;
 	float:left;
 	clear:both;
 	padding:10px;
 	font-family:Arial, Helvetica, sans-serif;
 	text-align:center;
+	height:220px;
 	width:100%;
-	color:#003cff;
 }
-.homefooter a {
+.homeFooter ul {
+	text-decoration:none;
+	text-align:center;
 	float:left;
-	font-family:Arial, Helvetica, sans-serif;
-	color:white;
+	list-style:none;
+}
+.homeFooter ul li {
+	text-align:center;
+	text-decoration:none;
+	color:#003cff;
+	list-style:none;
+}
+.homeFooter ul li a {
+	text-decoration:none;
+	color:black;
+	list-style:none;	
+}
+.homeFooter ul h3 {
+	font-weight:lighter;
+	color:#666;
 }
 h2 {
 	font-family:Arial, Helvetica, sans-serif;
