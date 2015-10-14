@@ -176,6 +176,7 @@ h2 {
 .thumbnails {
 	width:100%;
 	margin:20px;
+	display:inline-block;
 }
 .pricingInfo1 {
 	text-align:center;
@@ -184,8 +185,7 @@ h2 {
 	padding:10px;
 	font-family:Arial, Helvetica, sans-serif;
 	border-radius:7px;
-	float:left;
-	margin:auto;
+	margin:0, auto;
 }
 .pricingInfo2 {
 	text-align:center;
@@ -194,8 +194,7 @@ h2 {
 	padding:10px;
 	font-family:Arial, Helvetica, sans-serif;
 	border-radius:7px;
-	float:left;
-	margin:auto;
+	margin:0, auto;
 }
 .pricingInfo3 {
 	text-align:center;
@@ -204,6 +203,5 @@ h2 {
 	padding:10px;
 	font-family:Arial, Helvetica, sans-serif;
 	border-radius:7px;;
-	float:right;
-	margin:auto;
+	margin:0, auto;
 }
