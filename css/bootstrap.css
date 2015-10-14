@@ -4157,6 +4157,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .nav-justified {
   width: 100%;
+  float:right;
+  display:inline-block;
 }
 .nav-justified > li {
   float: none;
@@ -5005,11 +5007,9 @@ a.badge:focus {
   margin-left: 3px;
 }
 .jumbotron {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   margin-bottom: 30px;
-  color: inherit;
-  background-color: #eee;
 }
 .jumbotron h1,
 .jumbotron .h1 {
