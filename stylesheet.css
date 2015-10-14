@@ -116,6 +116,27 @@ nav ul li:hover a {
 	font-weight:lighter;
 	color:#666;
 }
+.homeFooter .bottomCont ul {
+	text-decoration:none;
+	text-align:center;
+	float:right;
+	list-style:none;
+}
+.homeFooter .bottomCont ul li {
+	text-align:center;
+	text-decoration:none;
+	color:#003cff;
+	list-style:none;
+}
+.homeFooter ul li a {
+	text-decoration:none;
+	color:black;
+	list-style:none;
+}
+.homeFooter .bottomCont h3 {
+	font-weight:lighter;
+	color:#666;
+}
 h2 {
 	font-family:Arial, Helvetica, sans-serif;
 }
