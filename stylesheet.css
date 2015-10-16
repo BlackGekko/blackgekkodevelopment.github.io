@@ -80,7 +80,16 @@ nav ul li:hover a {
 	font-family:Arial, Helvetica, sans-serif;
 	text-align:center;
 }
-
+.socialHeader {
+	width:100%;
+	text-align:center;
+	font-family:Arial, Helvetica, sans-serif;
+	padding:10px;
+}
+.socialHeader h3 {
+	margin-left:40%;
+	margin-right:40%;	
+}
 .homeFooter {
 	background-color:#CCC;
 	border:solid;
@@ -100,14 +109,10 @@ nav ul li:hover a {
 	margin-right:40%;	
 }
 .homeFooter h3 {
-	margin-left:40%;
-	margin-right:40%;
 	font-weight:lighter;
 	color:#666;	
 }
 .homeFooter .learnMore h3 {
-	margin-left:40%;
-	margin-right:40%;
 	font-weight:lighter;
 	color:#666;
 }
@@ -214,13 +219,16 @@ h2 {
     height: 600px;
     background-size: cover;
     overflow: hidden;
-    color:white;
+    color:black;
 }
 .jumbotron h1 {
-	padding:10px;	
+	padding:10px;
 }
 .jumbotron p {
 	padding:10px;
+}
+.jumboHead h3 {
+	background-color:#888;	
 }
 .thumbnails {
 	width:100%;
@@ -252,4 +260,29 @@ h2 {
 	margin-bottom:20px;
 	font-family:Arial, Helvetica, sans-serif;
 	float:left;
+}
+.startedThis {
+	padding:10px;
+	width:100%;
+	border:solid;
+	border-radius:7px;
+	font-family:Arial, Helvetica, sans-serif;
+	padding:10px;
+	clear:both;	
+}
+.ourMission {
+	padding:10px;
+	margin-top:20px;
+	width:100%;
+	border:solid;
+	border-radius:7px;
+	font-family:Arial, Helvetica, sans-serif;
+	padding:10px;
+	clear:both;		
+}
+.about h2 {
+	padding:10px;	
+}
+.mission h2 {
+	padding:10px;	
 }
