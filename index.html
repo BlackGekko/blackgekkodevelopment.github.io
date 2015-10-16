@@ -24,11 +24,11 @@
   
   <div class ="Navigation">
   		<ul class ="nav nav-justified">
-  			<li class ="active"><a href ="index.html">Home</a></li>
-            <li><a href ="about.html">About</a></li>
-            <li><a href ="pricing.html">Pricing</a></li>
-            <li><a href ="contact.html">Contact</a></li>
-            <li><a href ="Login.html">Login</a></li>
+  			<li class ="active" id ="navbut1"><a href ="index.html">Home</a></li>
+            		<li id ="navbut2"><a href ="about.html">About</a></li>
+            		<li id ="navbut3"><a href ="pricing.html">Pricing</a></li>
+            		<li id ="navbut4"><a href ="contact.html">Contact</a></li>
+            		<li id ="navbut5"><a href ="Login.html">Login</a></li>
   		</ul>
     </div>
     
@@ -99,13 +99,10 @@
   </footer>
   <script>
   	$(document).ready(function() {
-		$('.pricingbutton1').click(function() {
-			$(this).show();
+		$('#navbut1').hover(function() {
+			$(this).effect('bounce',{times:1},600);	
 		});
-		$('.pricingbutton1').dblclick(function() {
-			$(this).hide();
-		});
-    });
+	 });
   </script>
 </body>
 </html>
