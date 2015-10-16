@@ -172,6 +172,7 @@ h2 {
 	color:#003cff;
 	background-color:white;
 	border-radius:7px;
+	height:200px;
 }
 #planInfo1 a {
 	text-decoration:none;
@@ -183,6 +184,7 @@ h2 {
 	color:#003cff;
 	background-color:white;
 	border-radius:7px;
+	height:200px;
 }
 #planInfo2 a {
 	text-decoration:none;
@@ -194,6 +196,7 @@ h2 {
 	color:#003cff;
 	background-color:white;
 	border-radius:7px;
+	height:200px;
 }
 #planInfo3 a {
 	text-decoration:none;
@@ -236,6 +239,7 @@ h2 {
 }
 .pricingInfo1 {
 	text-align:center;
+	height:200px;
 	width:33.3333%;;
 	padding:10px;
 	border-radius:7px;
@@ -245,6 +249,7 @@ h2 {
 }
 .pricingInfo2 {
 	text-align:center;
+	height:200px;
 	width:33.3333%;
 	padding:10px;
 	border-radius:7px;
@@ -254,6 +259,7 @@ h2 {
 }
 .pricingInfo3 {
 	text-align:center;
+	height:200px;
 	width:33.3333%;
 	padding:10px;
 	border-radius:7px;
