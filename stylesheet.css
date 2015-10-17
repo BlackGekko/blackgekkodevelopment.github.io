@@ -208,6 +208,7 @@ h2 {
 	color:#888;	
 }
 .workedOn {
+	margin-top:20px;
 	width:100%;
 	border:solid;
 	border-radius:7px;
@@ -234,38 +235,33 @@ h2 {
 	background-color:#888;	
 }
 .thumbnails {
-	width:100%;
+	width:1320px;
 	display:inline-block;
+	margin-top:20px;
+	margin-left:50px;
+	margin-right:50px;
 }
 .pricingInfo1 {
 	text-align:center;
-	height:200px;
-	width:33.3333%;;
+	height:600px;
+	width:550px;
 	padding:10px;
 	border-radius:7px;
 	margin-bottom:20px;
 	font-family:Arial, Helvetica, sans-serif;
 	float:left;
+	display:inline;
 }
 .pricingInfo2 {
 	text-align:center;
-	height:200px;
-	width:33.3333%;
+	height:600px;
+	width:550px;
 	padding:10px;
 	border-radius:7px;
 	margin-bottom:20px;
 	font-family:Arial, Helvetica, sans-serif;
-	float:left;
-}
-.pricingInfo3 {
-	text-align:center;
-	height:200px;
-	width:33.3333%;
-	padding:10px;
-	border-radius:7px;
-	margin-bottom:20px;
-	font-family:Arial, Helvetica, sans-serif;
-	float:left;
+	float:right;
+	display:inline;
 }
 .startedThis {
 	padding:10px;
