@@ -23,3 +23,15 @@ nav ul li:hover {
 nav ul li:hover a {
 	display:block;
 	color:white;
+}
+.body .Navigation {
+	text-decoration:none;
+	background-color:#003cff;
+	display:inline;
+}
+.Navigation ul li a {
+	display:inline-block;
+}
+.navActive {
+	background-color:#888;
+}
