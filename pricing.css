@@ -131,3 +131,10 @@ nav ul li:hover a {
 	color:black;
 	list-style:none;
 }
+div .pricingHeading1{
+	border: 2px black solid;
+	float:left;
+	text-align:center;
+	padding:10px;
+}
+}
