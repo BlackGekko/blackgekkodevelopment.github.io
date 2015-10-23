@@ -58,12 +58,3 @@ nav ul li:hover a {
 .aboutFooter {
 	float:left;
 }
-.Navigation {
-	height:60px;
-	text-decoration:none;
-	background-color:#003cff;
-	border-radius:7px;
-}
-.active {
-	background-color:#888;
-}
