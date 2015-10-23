@@ -27,6 +27,26 @@ nav ul li:hover a {
 	color:white;
 	text-decoration:none;
 }
+.jumbotron {
+	text-align:center;
+    position: relative;
+    background: #000 url("grafitti1.jpg") center center;
+    width:100%;
+    height: 600px;
+    background-size: cover;
+    overflow: hidden;
+    color:black;
+}
+.jumbotron h1 {
+	padding:10px;
+}
+.jumbotron p {
+	padding:10px;
+}
+.jumboHead h3 {
+	background-color:#888;
+	color:white;
+}
 ﻿.aboutHeader1 .aboutHeader2 {
 	float:left;
 }
