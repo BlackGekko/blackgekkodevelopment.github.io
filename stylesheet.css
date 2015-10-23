@@ -233,7 +233,8 @@ h2 {
 	padding:10px;
 }
 .jumboHead h3 {
-	background-color:#888;	
+	background-color:#888;
+	color:white;
 }
 .thumbnails {
 	width:1320px;
