@@ -1,0 +1,17 @@
+.navigation {
+	text-align:center;
+	height:auto;
+	width:auto;
+}
+.jumbotron {
+	text-align:center;
+}
+.mainContent {
+	margin:20px;
+	border:solid;
+}
+.gallery {
+	width:auto;
+	margin:0, auto;
+	padding:10px;
+}
