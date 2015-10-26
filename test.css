@@ -2,16 +2,34 @@
 	text-align:center;
 	height:auto;
 	width:auto;
+	position:fixed;
+	background-color:white;
+}
+.navigaton ul li {
+	text-align:center;	
+}
+.navigation ul li a {
+	text-decoration:none;
+	color:black;
+	text-align:center;
 }
 .jumbotron {
 	text-align:center;
+	
 }
 .mainContent {
 	margin:20px;
-	border:solid;
 }
 .gallery {
+	border:solid;
 	width:auto;
 	margin:0, auto;
 	padding:10px;
+}
+.sitefooter {
+	margin:0, auto;
+	text-align:center;	
+}
+#toggle {
+	background-color:#009;	
 }
