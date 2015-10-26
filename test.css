@@ -32,10 +32,17 @@
 }
 .aboutPost {
 	padding:10px;
-	border:solid;
 	text-align:center;
 	height:auto;
 	width:auto;
 	margin:0, auto;
 	margin:20px;	
+}
+.contactInfo {
+	margin:20px;
+	padding:10px;
+	text-align:center;	
+}
+.photos {
+	margin:0, auto;	
 }
