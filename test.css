@@ -30,6 +30,9 @@
 	line-height:1px;
 	text-shadow:5px 5px black;	
 }
+.pageHeader {
+	text-align:center;	
+}
 .mainContent {
 	margin:20px;
 }
