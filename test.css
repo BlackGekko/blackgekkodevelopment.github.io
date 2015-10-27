@@ -1,3 +1,6 @@
+body {
+	background-color:#003cff;	
+}
 .navigation {
 	text-align:center;
 	height:auto;
@@ -77,7 +80,6 @@
 	position:relative;	
 }
 .photoInfo {
-	background-color:black;
 	width:1000;
 	color:white;
 }
