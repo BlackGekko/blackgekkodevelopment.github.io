@@ -9,28 +9,32 @@
 }
 .navigation ul li a {
 	text-decoration:none;
-	color:black;
+	color:white;
 	text-align:center;
+}
+.navigation ul li a:hover {
+	color:black;	
 }
 .jumbotron {
 	text-align:center;
 	background-color: #888;
-	background-image:url(horse4.jpg); background-repeat:no-repeat;
+	background-image:url(siphons.jpg); background-repeat:no-repeat;
 	background-size:cover;
 	height:500px;
 	width:100%;	
 	color:white;
-	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-family:Calibri;
 	font-size:35px;
 }
 .jumbotron h1 {
-	line-height:1px;	
+	line-height:1px;
+	text-shadow:5px 5px black;	
 }
 .mainContent {
 	margin:20px;
 }
 .gallery {
-	border:solid;
+	border:2px solid black;
 	width:auto;
 	margin:0, auto;
 	padding:10px;
