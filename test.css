@@ -16,6 +16,7 @@
 .jumbotron {
 	text-align:center;
 	background-color: #888;
+	background-image:url(horse.jpg);
 }
 .mainContent {
 	margin:20px;
