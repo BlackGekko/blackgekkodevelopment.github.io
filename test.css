@@ -2,8 +2,7 @@
 	text-align:center;
 	height:auto;
 	width:auto;
-	position:fixed;
-	background-color:white;
+	float:right;
 }
 .navigaton ul li {
 	text-align:center;	
