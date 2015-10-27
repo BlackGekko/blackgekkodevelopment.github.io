@@ -16,7 +16,11 @@
 .jumbotron {
 	text-align:center;
 	background-color: #888;
-	background-image:url(horse.jpg);
+	background-image:url(siphons.jpg);
+	height:500px;
+	width:100%;
+	color:black;
+	font-family:"Freestyle Script";
 }
 .mainContent {
 	margin:20px;

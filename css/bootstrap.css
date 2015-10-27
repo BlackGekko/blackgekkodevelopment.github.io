@@ -3056,6 +3056,7 @@ fieldset[disabled] a.btn {
   pointer-events: none;
 }
 .btn-default {
+	margin-bottom:10px;
   color: #333;
   background-color: #fff;
   border-color: #ccc;
