@@ -58,12 +58,14 @@ body {
 	height:auto;
 	width:auto;
 	margin:0, auto;
-	margin:20px;	
+	margin:20px;
+	font-family: 'IM Fell English SC', serif;	
 }
 .contactInfo {
 	margin:20px;
 	padding:10px;
-	text-align:center;	
+	text-align:center;
+	font-family: 'IM Fell English SC', serif;	
 }
 .photos {
 	margin:0, auto;	
@@ -74,7 +76,8 @@ body {
 .bigImage {
 	text-align:center;
 	height:665;
-	width:1000;	
+	width:1000;
+	font-family: 'IM Fell English SC', serif;	
 }
 .comments {
 	margin:0, auto;	
@@ -89,5 +92,6 @@ body {
 .galleryInfo {
 	text-align:center;
 	margin:20px;
-	padding:10px;	
+	padding:10px;
+	font-family: 'IM Fell English SC', serif;	
 }

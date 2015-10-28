@@ -7,10 +7,11 @@
     <title>Dirty Desert  Photography</title>
     <link type = "text/css" rel = "stylesheet" href = "test.css">
     <link href="css/bootstrap.css" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script> 
     <script src="js/bootstrap.min.js"></script>
+    <script src="jquery.flip.min.js"></script>
     <link href='https://fonts.googleapis.com/css?family=IM+Fell+English+SC|Engagement' rel='stylesheet' type='text/css'>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -19,9 +20,10 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-<body>  
-  
-  <div class ="navigation">
+
+  <body>
+  	
+    <div class ="navigation">
     	<ul class ="nav nav-pills">
         	<li><a href="test.html">Home</a></li>
             <li><a href="about_test.html">About</a></li>
@@ -30,37 +32,20 @@
         </ul>
     </div>
     
-	<div class ="jumbotron">
+    <div class ="jumbotron">
     	<h1>Dirty Desert Photography</h1>
     </div>
     
-    <div class ="pageHeader">
-    	<h2>Featured Images</h2>
+    <div class="bigImage">
+        <h2>Image Title</h2>
+        <img src="horse2full.jpg" height="665" width="1000">
     </div>
     
-    <div class ="mainContent">
-    	<table align="center" class ="gallery" border="2px solid">
-        	<tr>
-            	<td class="fet"><a href="image1_test.html"><img src ="horse1.jpg"></a></td>
-                <td class="fet"><a href="image2_test.html"><img src ="horse2.jpg"></a></td>
-                <td class="fet"><a href="image3_test.html"><img src ="horse3.jpg"></a></td>
-            </tr>
-
-            <tr>
-            	<td class="fet"><a href="image4_test.html"><img src ="elvis.jpg"></a></td>
-                <td class="fet"><a href="image5_test.html"><img src ="roadlong.jpg"></a></td>
-                <td class="fet"><a href="image6_test.html"><img src ="siphons2.jpg"></a></td>
-            </tr>
-            
-            <tr>
-            	<td class="fet"><a href="image7_test.html"><img src ="sunset1.jpg"></a></td>
-                <td class="fet"><a href="image8_test.html"><img src ="sunset2.jpg"></a></td>
-                <td class="fet"><a href="image9_test.html"><img src ="sunsetlake.jpg"></a></td>
-            </tr>
-        </table>
+    <div class="comments" align="center">
+    	<!-- Begin Comments JavaScript Code --><script type="text/javascript" async>function ajaxpath_562fcdf7a01e0(url){return window.location.href == '' ? url : url.replace('&s=','&s=' + escape(window.location.href));}(function(){document.write('<div id="fcs_div_562fcdf7a01e0"><a title="free comment script" href="http://www.freecommentscript.com">&nbsp;&nbsp;<b>Free HTML User Comments</b>...</a></div>');fcs_562fcdf7a01e0=document.createElement('script');fcs_562fcdf7a01e0.type="text/javascript";fcs_562fcdf7a01e0.src=ajaxpath_562fcdf7a01e0((document.location.protocol=="https:"?"https:":"http:")+"//www.freecommentscript.com/GetComments2.php?p=562fcdf7a01e0&s=&Size=10#!562fcdf7a01e0");setTimeout("document.getElementById('fcs_div_562fcdf7a01e0').appendChild(fcs_562fcdf7a01e0)",1);})();</script><noscript><div><a href="http://www.freecommentscript.com" title="free html user comment box">Free Comment Script</a></div></noscript><!-- End Comments JavaScript Code -->
     </div>
     
-	<footer class ="sitefooter">
+    <footer class ="sitefooter">
        <p>&copy;Dirty Desert Photography</p>
   		<p>To read this pages disclaimer please click here:</p>
         <button class="btn btn-default" onClick="disclaimer()">Disclaimer</button><br>
@@ -71,8 +56,8 @@
 	<script>
 		function disclaimer() {
 			'use strict';
-			alert('The images used and displayed on this page belong to Dirty Desert Photography, for information on using these images please contact: contact@dirtydesertphotography.com, social 	                   media icons created by Alfredo H under the Creative Commons License 3.0 at https://www.iconfinder.com/iconsets/black-white-social-media')	
+			alert('The images used and displayed on this page belong to Dirty Desert Photography, for information on using these images please contact: contact@dirtydesertphotography.com')	
 		}
 	</script>
-</body>
+  </body>
 </html>
