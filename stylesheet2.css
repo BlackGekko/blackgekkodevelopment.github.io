@@ -13,7 +13,7 @@
 .jumbotron {
 	text-align: center;
 	color: white;
-	background-color: black;
+	background-color:black;	
 	height:300px;
 }
 .mainContent {
@@ -64,5 +64,28 @@
 	color:white;
 	margin-left:auto;
 	margin-right:auto;
-	margin-bottom:20px;	
+	margin-bottom:20px;
+	padding:10px;
+}
+.clientLinks tr td a {
+	text-decoration:none;
+	color:white;	
+}
+.clientLinks tr td a:hover {
+	color:#003cff;
+}
+.ourPromise {
+	text-align:center;
+	color:white;
+	height:200px;
+	width:1225px;
+	background-color:black;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:20px;
+	padding:10px;	
+}
+.pageFooter {
+	color:black;
+	text-align:center;	
 }
