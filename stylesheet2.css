@@ -89,3 +89,15 @@
 	color:black;
 	text-align:center;	
 }
+.aboutInfo {
+	margin-top:50px;
+	padding:10px;
+	text-align:center;
+	color:white;
+	margin-left:auto;
+	margin-right:auto;
+	width:1225px;
+	height:200px;
+	background-color:black;
+	margin-bottom:20px;	
+}
