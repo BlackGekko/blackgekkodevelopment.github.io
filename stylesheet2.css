@@ -93,32 +93,35 @@
 	margin-top:50px;
 	padding:10px;
 	text-align:center;
-	color:black;
+	color:white;
 	margin-left:auto;
 	margin-right:auto;
 	width:1225px;
 	height:200px;
-	margin-bottom:20px;	
+	margin-bottom:20px;
+	background-color:black;	
 }
 .pricingInfo {
 	text-align:center;
 	margin-top:50px;
 	padding:10px;
-	color:black;
+	color:white;
 	margin-left:auto;
 	margin-right:auto;
 	width:1225px;
 	height:200px;
-	margin-bottom:20px;	
+	margin-bottom:20px;
+	background-color:black;	
 }
 .contactInfo {
 	text-align:center;
 	margin-top:50px;
 	padding:10px;
-	color:black;
+	color:white;
 	margin-left:auto;
 	margin-right:auto;
 	width:1225px;
 	height:200px;
-	margin-bottom:20px;		
+	margin-bottom:20px;
+	background-color:black;		
 }
