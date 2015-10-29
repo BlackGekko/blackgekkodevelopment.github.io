@@ -4,8 +4,6 @@ nav ul {
 }
 nav ul li {
 	list-style-type:none;
-	float:left;
-	display:block;
 	width:150px;
 	height:60px;
 	text-align:center;
@@ -15,13 +13,12 @@ nav ul li {
 }
 nav ul li a {
 	text-decoration:none;
-	color:white;
+	float:right;
 }
 nav ul li:hover {
 	background-color:#888;
 }
 nav ul li:hover a {
-	display:block;
 	color:white;
 }
 .mainheader img {

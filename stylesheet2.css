@@ -1,0 +1,68 @@
+.navigation {
+	float: right;
+	text-align: center;
+}
+.navigation ul li a {
+	color: white;
+	text-decoration: none;
+	background-color: black;
+}
+.navigation ul li a:hover {
+	color:black;	
+}
+.jumbotron {
+	text-align: center;
+	color: white;
+	background-color: black;
+	height:300px;
+}
+.mainContent {
+	height: 350px;
+	width: 1250px;
+	padding-top: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:20px;
+}
+.box1 {
+	border: solid;
+	color:white;
+	background-color:black;
+	height: 300px;
+	width: 400px;
+	float: left;
+	padding:10px;	
+}
+.box2 {
+	border: solid;
+	color:white;
+	background-color:black;
+	height: 300px;
+	width: 400px;
+	float: left;
+	margin-left: 15px;
+	margin-right: 15px;
+	padding:10px;
+}
+.box3 {
+	border: solid;
+	color:white;
+	background-color:black;
+	height: 300px;
+	width: 400px;
+	float: right;
+	padding:10px;
+}
+.clients {
+	text-align: center;
+	height:200px;
+	width:1225px;
+	background-color:black;
+	color:white;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:20px;	
+}
