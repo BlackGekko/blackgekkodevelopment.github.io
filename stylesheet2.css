@@ -128,3 +128,14 @@
 	margin-bottom:20px;
 	background-color:black;
 }
+.priceEstimate {
+	text-align: center;
+	color: white;
+	height: auto;
+	width: 1225px;
+	background-color: black;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	padding:10px;
+}
