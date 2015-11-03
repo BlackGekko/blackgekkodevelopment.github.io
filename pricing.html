@@ -13,6 +13,7 @@
     	<script src="js/bootstrap.min.js"></script>
     	<link rel="shortcut icon" type="image/png" href="https://cloud.githubusercontent.com/assets/14165485/10320623/4cb96496-6c29-11e5-911d-bbcb15306971.jpg"/>
         <link href='https://fonts.googleapis.com/css?family=Orbitron|Bangers' rel='stylesheet' type='text/css'>
+		<script src="pricingcalc.js"></script>
     	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     	<!--[if lt IE 9]>
@@ -48,12 +49,13 @@
 			<p>If you are unsure about any of the anwswers, please leave them with the set values</p>
 			<form>
 				<p>How many web pages are expected?</p>
-				<input type ="text" name="# of pages" id="pageNum" value ="3" width="20"><br>
+				<input type ="text" name="# of pages" id="pageNum" value ="3" width="20" class="input"><br>
 				<p>Is your site going to require a store? (yes or no)</p>
 				<input type ="text" name ="store" id="storeReq" width="20"><br>
 				<p>Is your store going to require a user database? (yes or no)</p>
 				<input type ="text" name="users" id="userReq" width="20"><br>
-				<input type"submit" name="submit">
+				<button id="submit" class="btn btn-default">Submit</button>
+				<p></p>
 			</form>
 		</div>
         
@@ -65,34 +67,10 @@
         </div>
         
         <script>
-		function disclaimer() {
-		'use strict'
-		alert('All images and content featured on this page belong to Black Gekko Development, if you have questions or comments contact: contact@blackgekkodevelopment.com')	
-		}
-	</script>
-	<script>
-		function priceCalc() {
-		'use strict'
-		var pageAmount = document.getElementById("pageNum").value;
-		var store = document.getElementById("storeReq")
-		var users = document.getElementById('userReq')
-		var price;
-		if pageAmount === 3 {
-			pagePrice = 150;
-		}
-		else if pageAmount === 4 {
-			pagePrice = 200;
-		}
-		else if pageAmount === 5 {
-			pagePrice = 250;
-		}
-		else if pageAmout > 5 {
-			pageprice = 400;
-		}
-		else pageAmout === null {
-			document.write('You did not enter something correctly!')
-		}
-		}
-	</script>
+			function disclaimer() {
+			'use strict'
+			alert('All images and content featured on this page belong to Black Gekko Development, if you have questions or comments contact: contact@blackgekkodevelopment.com')	
+			}
+		</script>
 	</body>
 </html>

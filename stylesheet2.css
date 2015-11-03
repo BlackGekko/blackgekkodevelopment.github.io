@@ -139,3 +139,10 @@
 	margin-bottom: 20px;
 	padding:10px;
 }
+#submit {
+	color: black;
+	margin-top: 10px;
+}
+.input {
+	color: black;
+}
