@@ -48,7 +48,7 @@
 			<p>If you are unsure about any of the anwswers, please leave them with the set values</p>
 			<form>
 				<p>How many web pages are expected?</p><br>
-				<input type ="text" name="# of pages" id="pageNum"><br>
+				<input type ="text" name="# of pages" id="pageNum" value ="3"><br>
 				<p>Is your site going to require a store? (yes or no)</p><br>
 				<input type ="text" name ="store" id="storeReq"><br>
 				<p>Is your store going to require a user database? (yes or no)</p><br>
@@ -75,8 +75,20 @@
 		var pageAmount = document.getElementById("pageNum").value;
 		var store = document.getElementById("storeReq")
 		var users = document.getElementById('userReq')
-		if pageAmout === 3 {
-			document.write
+		if pageAmount === 3 {
+			pagePrice = 150;
+		}
+		else if pageAmount === 4 {
+			pagePrice = 200;
+		}
+		else if pageAmount === 5 {
+			pagePrice = 250;
+		}
+		else if pageAmout > 5 {
+			pageprice = 400;
+		}
+		else pageAmout === null {
+			document.write('You did not enter something correctly!')
 		}
 		}
 	</script>
