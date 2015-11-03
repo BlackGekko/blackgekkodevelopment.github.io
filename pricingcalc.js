@@ -22,23 +22,24 @@ else {
 	document.write('Were sorry, something went wrong, please check that you filled in all required feilds or left them at their default setting');
 }
 
-if(store = 'yes') {
+if(store = 'yes' || 'Yes') {
 	storePrice = 150;
 }
-else if(store = 'no') {
+else if(store = 'no' || 'No') {
 	storePrice = 0;
 }
 else {
 	document.write('Were sorry, something went wrong, please check that you filled in all required feilds or left them at their default setting');
 }
 
-if(user = 'yes'){
+if(user = 'yes' || 'Yes'){
 	userPrice = 50;
 }
-else if(user = 'no') {
+else if(user = 'no' || 'No') {
 	userPrice = 0;
 }
 else {
 	document.write('Were sorry, something went wrong, please check that you filled in all required feilds or left them at their default setting');
 }
+
 }
