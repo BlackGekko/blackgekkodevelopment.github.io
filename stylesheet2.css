@@ -146,3 +146,16 @@
 .input {
 	color: black;
 }
+.loginField {
+	text-align: center;
+	margin-bottom: 20px;
+}
+#login {
+	margin-top: 10px;
+	background-color: black;
+	color: white;
+}
+#disclaimer {
+	background-color: black;
+	color: white;
+}
