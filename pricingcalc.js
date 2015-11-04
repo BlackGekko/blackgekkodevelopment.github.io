@@ -42,4 +42,7 @@ else if(user = 'no' || 'No') {
 else {
 	document.write('Were sorry, something went wrong, please check that you filled in all required feilds or left them at their default setting');
 }
+
 }
+
+var price = pagePrice + storePrice + userPrice;
