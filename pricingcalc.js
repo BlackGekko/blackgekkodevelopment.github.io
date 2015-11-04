@@ -2,7 +2,7 @@ var pagePrice;
 var storePrice;
 var userPrice;
 
-function pricecalc() {
+function priceCalc() {
 var pageNum = document.getElementById('pageNum').value;
 var store = document.getElementById('storeReq').accessKey;
 var user = document.getElementById('userReq').accessKey;
@@ -20,7 +20,7 @@ else if(pageNum > 5) {
 	pagePrice = 400
 }
 else {
-	document.write('Were sorry, something went wrong, please check that you filled in all required feilds or left them at their default setting');
+	alert('Were sorry, something went wrong, please check that you filled in all required feilds or left them at their default setting');
 }
 
 if(store = 'yes' || 'Yes') {
@@ -30,7 +30,7 @@ else if(store = 'no' || 'No') {
 	storePrice = 0;
 }
 else {
-	document.write('Were sorry, something went wrong, please check that you filled in all required feilds or left them at their default setting');
+	alert('Were sorry, something went wrong, please check that you filled in all required feilds or left them at their default setting');
 }
 
 if(user = 'yes' || 'Yes'){
@@ -40,11 +40,6 @@ else if(user = 'no' || 'No') {
 	userPrice = 0;
 }
 else {
-	document.write('Were sorry, something went wrong, please check that you filled in all required feilds or left them at their default setting');
+	alert('Were sorry, something went wrong, please check that you filled in all required feilds or left them at their default setting');
 }
-
-}
-function price() {
-	var totalPrice = pagePrice + storePrice + userPrice;
-	alert(totalPrice, 'dollars');
 }
