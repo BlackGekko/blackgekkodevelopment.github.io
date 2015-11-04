@@ -20,6 +20,7 @@ else if(pageNum > 5) {
 	pagePrice = 300;
 }
 else {
-	alert(pagePrice)
+	alert('Something went wrong');
 }
+alert(pagePrice);
 }
