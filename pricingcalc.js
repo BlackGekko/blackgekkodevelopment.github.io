@@ -45,4 +45,7 @@ else {
 
 }
 
-var price = pagePrice + storePrice + userPrice;
+function price() {
+var totalPrice = pagePrice + storePrice + userPrice;
+alert(totalPrice, 'dollars');
+}
