@@ -20,6 +20,6 @@ else if(pageNum > 5) {
 	pagePrice = 300;
 }
 else {
-	alert('Did you enter a page numbber? Or leave it with the original value?')
+	alert(pagePrice)
 }
 }
