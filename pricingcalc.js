@@ -44,8 +44,7 @@ else {
 }
 
 }
-
 function price() {
-var totalPrice = pagePrice + storePrice + userPrice;
-alert(totalPrice, 'dollars');
+	var totalPrice = pagePrice + storePrice + userPrice;
+	alert(totalPrice, 'dollars');
 }
