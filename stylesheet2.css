@@ -200,3 +200,12 @@
 	margin-bottom:20px;
 	background-color:black;
 }
+.ticket h3 {
+	margin-bottom: 10px;
+}
+.ticket {
+	border: 2px solid white;
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+}
