@@ -11,7 +11,7 @@ function userAuth() {
 		document.getElementById('loginField').appendChild(btn);
 		document.body.appendChild(btn);
 		document.getElementById('loginField').appendChild(btn);
-		btn.setAttribute('onclick', location.href='admin.html');
+		btn.setAttribute('onclick', location.href='z28.html');
 	}
 	else if(idNumber == 2490318) {
 		alert('Welcome back, Tyler');
@@ -23,7 +23,7 @@ function userAuth() {
 		document.getElementById('loginField').appendChild(btn);
 		document.body.appendChild(btn);
 		document.getElementById('loginField').appendChild(btn);
-		btn.setAttribute('onclick', location.href='admin.html');
+		btn.setAttribute('onclick', location.href='z28.html');
 	}
 	else if(idNumber == 2509987) {
 		alert('Welcome back, Mollee');
@@ -35,7 +35,7 @@ function userAuth() {
 		document.getElementById('loginField').appendChild(btn);
 		document.body.appendChild(btn);
 		document.getElementById('loginField').appendChild(btn);
-		btn.setAttribute('onclick', location.href='admin.html');
+		btn.setAttribute('onclick', location.href='z28.html');
 	}
 	else if(idNumber == null) {
 		alert('Please enter your ID');
