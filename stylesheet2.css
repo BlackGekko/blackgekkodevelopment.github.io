@@ -159,3 +159,9 @@
 	background-color: black;
 	color: white;
 }
+#continueButton {
+	text-align: center;
+	background-color: black;
+	color: white;
+	margin-top: 10px;
+}

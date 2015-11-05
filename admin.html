@@ -37,15 +37,7 @@
 			<h1>Black Gekko Development</h1>
 			<p>Dedicated in helping build a better web</p>
 		</div>
-		
-		<div class="loginField" id="loginField">
-			<h2>Please login here!</h2>
-			<p>ID Number:</p>
-			<input type="text" name="idNumber" id="idNumber"><br>
-			<button onclick="userAuth()" id="login" class="btn btn-default">Login</button>
-		</div>
-        
-        <div class ="pageFooter">
+		<div class ="pageFooter">
         	<footer>
             	<p>&copy; 2015 Black Gekko Development</p>
                 <button id="disclaimer" class="btn btn-default" onClick="disclaimer()">Disclaimer</button>
@@ -57,6 +49,15 @@
 				'use strict'
 				alert('All images and content featured on this page belong to Black Gekko Development, if you have questions or comments contact: contact@blackgekkodevelopment.com')	
 			}
+		</script>
+		
+		<script>
+			$(document).ready(function() {
+				$('#continueButton').click(function() {
+					window.location.href='admin.html';
+					return false;
+				});
+			});
 		</script>	
 	</body>
 </html>
