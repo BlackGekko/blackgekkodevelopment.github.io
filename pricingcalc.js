@@ -29,20 +29,20 @@ else {
 	alert('Something went wrong');
 }
 
-if(store == 'yes'||'Yes'){
+if(store == 'yes'){
 	storePrice = 100;
 }
-else if(store == 'no'||'No') {
+else if(store == 'no') {
 	storePrice = 0;
 }
 else {
 	alert('Something went wrong');
 }
 
-if(user == 'yes'||'Yes') {
+if(user == 'yes') {
 	userPrice = 65;
 }
-else if(user == 'no'||'No') {
+else if(user == 'no') {
 	userPrice = 0;
 }
 else {
