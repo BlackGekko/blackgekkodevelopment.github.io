@@ -51,7 +51,10 @@
 				<p>How many web pages are expected? (If you are unsure, the average value is 3, Home, About, Contact)</p>
 				<input type ="text" name="# of pages" id="pageNum" width="20" class="input"><br>
 				<p>Is your site going to require a store? (yes or no, if you are unsure type no)</p>
-				<input type ="text" name ="store" id="storeReq" width="20" class="input"><br>
+				<select>
+					<option value ="yes">Yes</option>
+					<option value ="no">No</option>
+				</select>
 				<p>Is your store going to require a user database? (yes or no, if you are unsure type no)</p>
 				<input type ="text" name="users" id="userReq" width="20" class="input"><br>
 				<button onclick="priceCalc()" id="submit" class="btn btn-default">Submit</button>
