@@ -49,23 +49,23 @@
 			<p>Please enter all fields!</p>
 			<form>
 				<p>How many web pages are expected? (If you are unsure, the average value is 3, Home, About, Contact)</p>
-				<select>
-					<option value="1">1</option>
-					<option value="2">2</option>
-					<option value="3">3</option>
-					<option value="4">4</option> 
-					<option value="5">5</option> 
-					<option value="5+">5+</option> 
+				<select class="dropdown">
+					<option class="dropdown" id="drop_1" value="1">1</option>
+					<option class="dropdown" id="drop_2" value="2">2</option>
+					<option class="dropdown" id="drop_3" value="3">3</option>
+					<option class="dropdown" id="drop_4" value="4">4</option> 
+					<option class="dropdown" id="drop_5" value="5">5</option> 
+					<option class="dropdown" id="drop_6" value="5+">5+</option> 
 				</select>
 				<p>Is your site going to require a store? (yes or no, if you are unsure type no)</p>
-				<select>
-					<option value ="yes">Yes</option>
-					<option value ="no">No</option>
+				<select class="dropdown">
+					<option class="dropdown" id="drop_7" value ="yes">Yes</option>
+					<option class="dropdown" id="drop_8" value ="no">No</option>
 				</select>
 				<p>Is your store going to require a user database? (yes or no, if you are unsure type no)</p>
-				<select>
-					<option value="yes">Yes</option>
-					<option valu="no">No</option>
+				<select class="dropdown">
+					<option class="dropdown" id="drop_9" value="yes">Yes</option>
+					<option class="dropdown" id="drop_10" value="no">No</option>
 				</select><br>
 				<button onclick="priceCalc()" id="submit" class="btn btn-default">Submit</button>
 			</form>
