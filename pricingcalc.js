@@ -5,7 +5,7 @@ var finalPrice = pagePrice + storePrice + databasePrice;
 
 function priceCalc() {
 	var price = document.createElement('p');
-	var node = document.createTextNode('The estimate of your site is: ' + finalPrice);
+	var node = document.createTextNode('The estimate of your site is: $ ' + finalPrice);
 	price.appendChild(node);
 	var element = document.getElementById('finalPrice');
 	element.appendChild(price);
