@@ -49,7 +49,7 @@
 			<p>Please enter all fields!</p>
 			<form>
 				<p>How many web pages are expected? (If you are unsure, the average value is 3, Home, About, Contact)</p>
-				<select class="dropdown">
+				<select class="dropdown" id="page">
 					<option class="dropdown" id="drop_1" value="1">1</option>
 					<option class="dropdown" id="drop_2" value="2">2</option>
 					<option class="dropdown" id="drop_3" value="3">3</option>
@@ -58,15 +58,16 @@
 					<option class="dropdown" id="drop_6" value="5+">5+</option> 
 				</select>
 				<p>Is your site going to require a store? (yes or no, if you are unsure type no)</p>
-				<select class="dropdown">
-					<option class="dropdown" id="drop_7" value ="yes">Yes</option>
-					<option class="dropdown" id="drop_8" value ="no">No</option>
+				<select class="dropdown" id="store">
+					<option class="dropdown" id="drop_7" value ="1">Yes</option>
+					<option class="dropdown" id="drop_8" value ="2">No</option>
 				</select>
 				<p>Is your store going to require a user database? (yes or no, if you are unsure type no)</p>
-				<select class="dropdown">
-					<option class="dropdown" id="drop_9" value="yes">Yes</option>
-					<option class="dropdown" id="drop_10" value="no">No</option>
+				<select class="dropdown" id="database">
+					<option class="dropdown" id="drop_9" value="1">Yes</option>
+					<option class="dropdown" id="drop_10" value="2">No</option>
 				</select><br>
+				<div id="finalPrice"></div>
 				<button onclick="priceCalc()" id="submit" class="btn btn-default">Submit</button>
 			</form>
 		</div>
