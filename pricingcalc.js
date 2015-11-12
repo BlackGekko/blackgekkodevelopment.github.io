@@ -1,7 +1,7 @@
 var pagePrice;
 var storePrice;
 var databasePrice;
-var finalPrice = pagePrice + storePrice + databasePrice;
+var finalPrice;
 
 function priceCalc() {
 	var price = document.createElement('p');
@@ -59,4 +59,6 @@ function priceCalc() {
 	else {
 		alert("Something went wrong");
 	}
+	
+	finalPrice = pagePrice + storePrice + databasePrice
 }
