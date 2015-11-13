@@ -5,6 +5,9 @@ var finalPrice;
 
 function priceCalc() {
 	
+	//Prevent page from refresh
+	event.preventDefault();
+	
 	//Get selected values from user
 	var pageAmount = document.getElementById('page').value;
 	var storeOption = document.getElementById('store').value;
@@ -64,5 +67,4 @@ function priceCalc() {
 	price.appendChild(node);
 	var element = document.getElementById('finalPrice');
 	element.appendChild(price);
-	event.preventDefault();
 }
