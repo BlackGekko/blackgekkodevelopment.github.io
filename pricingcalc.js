@@ -9,7 +9,6 @@ function priceCalc() {
 	var pageAmount = document.getElementById('page').value;
 	var storeOption = document.getElementById('store').value;
 	var databaseOption = document.getElementById('database').value;
-	event.preventDefault();
 	
 	//Page amount and price
 	if(pageAmount == 1) {
@@ -65,4 +64,5 @@ function priceCalc() {
 	price.appendChild(node);
 	var element = document.getElementById('finalPrice');
 	element.appendChild(price);
+	event.preventDefault();
 }
