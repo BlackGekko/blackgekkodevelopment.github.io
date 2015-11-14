@@ -4,16 +4,14 @@ var databasePrice;
 var finalPrice;
 
 function priceCalc() {
-	var price = document.createElement('p');
-	var node = document.createTextNode('The estimate of your site is: $' + finalPrice);
-	price.appendChild(node);
-	var element = document.getElementById('finalPrice');
-	element.appendChild(price);
 	
+	//Prevent page from refresh
+	event.preventDefault();
+	
+	//Get selected values from user
 	var pageAmount = document.getElementById('page').value;
 	var storeOption = document.getElementById('store').value;
 	var databaseOption = document.getElementById('database').value;
-	event.preventDefault();
 	
 	//Page amount and price
 	if(pageAmount == 1) {
@@ -60,5 +58,13 @@ function priceCalc() {
 		alert("Something went wrong");
 	}
 	
-	finalPrice = pagePrice + storePrice + databasePrice
+	//Add prices to get final estimate
+	finalPrice = pagePrice + storePrice + databasePrice;
+	
+	//Create text element to display final price
+	var price = document.createElement('p');
+	var node = document.createTextNode('The estimate of your site is: $' + finalPrice);
+	price.appendChild(node);
+	var element = document.getElementById('finalPrice');
+	element.appendChild(price);
 }
