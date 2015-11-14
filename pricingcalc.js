@@ -7,7 +7,6 @@ function priceCalc() {
 	
 	//Prevent page from refresh
 	event.preventDefault();
-	return false;
 	
 	//Get selected values from user
 	var pageAmount = document.getElementById('page').value;
