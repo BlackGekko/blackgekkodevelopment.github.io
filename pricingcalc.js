@@ -67,6 +67,7 @@ function priceCalc() {
 	price.appendChild(node);
 	var element = document.getElementById('finalPrice');
 	element.appendChild(price);
+	price.style.marginTop = "10px";
 	
 	//Firefox testing
 }
