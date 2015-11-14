@@ -47,7 +47,7 @@
 			<h2 style="font-family: 'Bangers', cursive;">Get a handle on how much your site would cost!</h2>
 			<p>Punch in the information and get an instant estimate!</p>
 			<p>Please enter all fields!</p>
-			<form>
+			<form class="priceCalcForm">
 				<p>How many web pages are expected? (If you are unsure, the average value is 3, Home, About, Contact)</p>
 				<select class="dropdown" id="page">
 					<option class="dropdown" id="drop_1" value="1">1</option>
@@ -84,6 +84,13 @@
 			'use strict'
 			alert('All images and content featured on this page belong to Black Gekko Development, if you have questions or comments contact: contact@blackgekkodevelopment.com')	
 			}
+		</script>
+		<script>
+			$(document).ready(function() {
+				$(".priceCalcForm").submit(function(e) {
+					e.preventDefault();
+				});
+			});
 		</script>
 	</body>
 </html>
