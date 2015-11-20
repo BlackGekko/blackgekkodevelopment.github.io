@@ -75,18 +75,8 @@
         	<footer>
             	<p>&copy; 2015 Black Gekko Development</p>
                 <button id="disclaimer" class="btn btn-default" onClick="disclaimer()">Disclaimer</button>
-				<button id="testButton" class="btn btn-default" onclick="test()">Test</button>
             </footer>
-        </div>
-		
-		<?php
-		
-			function test() {
-				echo "This is PHP here!"
-			}
-		
-		?>
-        
+        </div>        
         <script>
 			function disclaimer() {
 				'use strict'
