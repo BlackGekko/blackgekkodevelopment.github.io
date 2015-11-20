@@ -1,4 +1,4 @@
-\<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -71,6 +71,13 @@
 				<button type="button" id="submit" class="btn btn-default" onClick="priceCalc()">Submit</button>
 				<button type="button" id="submit" class="btn btn-default" onClick="phpTest()">Test</button>
 			</form>
+			
+			<?php
+				function test() {
+					echo "This is PHP here!";
+				}
+			?>
+			
 		</div>
         
         <div class ="pageFooter">
