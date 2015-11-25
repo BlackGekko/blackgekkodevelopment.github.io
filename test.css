@@ -50,8 +50,8 @@
 	padding:10px;
 }
 .top-sidebar {
-
-	width: 18%;
+	width: 350px;
+	height: 350px;
 	float: left;
 	margin-top: 2%;
 	margin-left: 3%;
@@ -60,4 +60,9 @@
 	background-color:#666;
 	color:white;
 	font-size: 16px;
+	text-align: center;
+}
+.top-sidebar ul li {
+	list-style: none;
+	text-align: center;
 }
