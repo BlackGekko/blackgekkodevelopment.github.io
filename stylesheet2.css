@@ -72,7 +72,9 @@
 }
 .clientLinks tr td a {
 	text-decoration:none;
-	color:white;	
+	color:white;
+	margin-left:auto;
+	margin-right:auto;	
 }
 .clientLinks tr td a:hover {
 	color:#003cff;
