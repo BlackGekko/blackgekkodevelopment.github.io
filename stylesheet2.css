@@ -21,6 +21,7 @@
 	height:300px;
 	font-family: 'Bangers', cursive;
 	font-size:21px;
+	border:solid;
 }
 .mainContent {
 	height: 350px;
