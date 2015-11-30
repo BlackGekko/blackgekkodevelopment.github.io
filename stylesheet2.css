@@ -4,6 +4,7 @@
 .navigation {
 	float: right;
 	text-align: center;
+	border:solid;
 }
 .navigation ul li a {
 	color: white;
