@@ -110,6 +110,7 @@
 	height:200px;
 	margin-bottom:20px;
 	background-color:#0d0d0d;
+	border:solid;
 }
 .pricingInfo {
 	text-align:center;
@@ -122,6 +123,7 @@
 	height:200px;
 	margin-bottom:20px;
 	background-color:#0d0d0d;
+	border:solid;
 }
 .contactInfo {
 	text-align:center;
@@ -134,6 +136,7 @@
 	height:200px;
 	margin-bottom:20px;
 	background-color:#0d0d0d;
+	border:solid;
 }
 .priceEstimate {
 	text-align: center;
@@ -145,6 +148,7 @@
 	margin-right: auto;
 	margin-bottom: 20px;
 	padding:10px;
+	border:solid;
 }
 #submit {
 	color: black;
