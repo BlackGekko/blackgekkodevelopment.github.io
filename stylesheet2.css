@@ -1,3 +1,6 @@
+.body {
+	background-color:#888;
+}
 .navigation {
 	float: right;
 	text-align: center;
@@ -69,6 +72,7 @@
 	margin-right:auto;
 	margin-bottom:20px;
 	padding:10px;
+	border:solid;
 }
 .clientLinks tr td a {
 	text-decoration:none;
@@ -89,9 +93,10 @@
 	margin-right:auto;
 	margin-bottom:20px;
 	padding:10px;
+	border:solid;
 }
 .pageFooter {
-	color:black;
+	color:white;
 	text-align:center;	
 }
 .aboutInfo {
@@ -151,6 +156,7 @@
 #disclaimer {
 	background-color: #0d0d0d;
 	color: white;
+	border:solid 1px;
 }
 .dropdown {
 	color: black;
