@@ -124,6 +124,9 @@
 	background-color:#0d0d0d;
 	border:solid;
 }
+.employee-info {
+	color:yellow;
+}
 .pricingInfo {
 	text-align:center;
 	margin-top:50px;
