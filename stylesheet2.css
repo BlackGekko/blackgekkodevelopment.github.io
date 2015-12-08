@@ -64,7 +64,7 @@
 }
 .clients {
 	text-align: center;
-	height:200px;
+	height:auto;
 	width:1225px;
 	background-color:#0d0d0d;
 	color:white;
