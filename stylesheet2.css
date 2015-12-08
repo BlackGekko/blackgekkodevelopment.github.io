@@ -64,7 +64,7 @@
 }
 .clients {
 	text-align: center;
-	height:200px;
+	height:auto;
 	width:1225px;
 	background-color:#0d0d0d;
 	color:white;
@@ -111,6 +111,21 @@
 	margin-bottom:20px;
 	background-color:#0d0d0d;
 	border:solid;
+}
+.aboutInfo2 {
+	padding:10px;
+	text-align:center;
+	color:white;
+	margin-left:auto;
+	margin-right:auto;
+	width:1225px;
+	height:auto;
+	margin-bottom:20px;
+	background-color:#0d0d0d;
+	border:solid;
+}
+.employee-info {
+	color:red;
 }
 .pricingInfo {
 	text-align:center;
