@@ -22,7 +22,7 @@
     	<![endif]-->
 	</head>
 
-	<body class ="body">
+	<body>
     	<div class ="navigation">
 			<ul class="nav nav-pills">
 				<li><a href="index.html">Home</a></li>
@@ -69,7 +69,15 @@
 				</select><br>
 				<div id="finalPrice"></div>
 				<button type="button" id="submit" class="btn btn-default" onClick="priceCalc()">Submit</button>
+				<button type="button" id="submit" class="btn btn-default" onClick="phpTest()">Test</button>
 			</form>
+			
+			<?php
+				function test() {
+					echo "This is PHP here!";
+				}
+			?>
+			
 		</div>
         
         <div class ="pageFooter">
@@ -79,11 +87,18 @@
             </footer>
         </div>
         
-        	<script>
+        <script>
 			function disclaimer() {
 			'use strict'
 			alert('All images and content featured on this page belong to Black Gekko Development, if you have questions or comments contact: contact@blackgekkodevelopment.com')	
 			}
+		</script>
+		<script>
+			$(document).ready(function() {
+				$(".priceCalcForm").submit(function(e) {
+					e.preventDefault();
+				});
+			});
 		</script>
 	</body>
 </html>

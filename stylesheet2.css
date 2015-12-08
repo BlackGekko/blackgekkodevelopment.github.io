@@ -1,3 +1,6 @@
+.body {
+	background-color:#888;
+}
 .navigation {
 	float: right;
 	text-align: center;
@@ -69,10 +72,13 @@
 	margin-right:auto;
 	margin-bottom:20px;
 	padding:10px;
+	border:solid;
 }
 .clientLinks tr td a {
 	text-decoration:none;
-	color:white;	
+	color:white;
+	margin-left:auto;
+	margin-right:auto;	
 }
 .clientLinks tr td a:hover {
 	color:#003cff;
@@ -87,9 +93,10 @@
 	margin-right:auto;
 	margin-bottom:20px;
 	padding:10px;
+	border:solid;
 }
 .pageFooter {
-	color:black;
+	color:white;
 	text-align:center;	
 }
 .aboutInfo {
@@ -103,6 +110,7 @@
 	height:200px;
 	margin-bottom:20px;
 	background-color:#0d0d0d;
+	border:solid;
 }
 .pricingInfo {
 	text-align:center;
@@ -115,6 +123,7 @@
 	height:200px;
 	margin-bottom:20px;
 	background-color:#0d0d0d;
+	border:solid;
 }
 .contactInfo {
 	text-align:center;
@@ -127,6 +136,7 @@
 	height:200px;
 	margin-bottom:20px;
 	background-color:#0d0d0d;
+	border:solid;
 }
 .priceEstimate {
 	text-align: center;
@@ -138,6 +148,7 @@
 	margin-right: auto;
 	margin-bottom: 20px;
 	padding:10px;
+	border:solid;
 }
 #submit {
 	color: black;
@@ -146,18 +157,10 @@
 .input {
 	color: black;
 }
-.loginField {
-	text-align: center;
-	margin-bottom: 20px;
-}
-#login {
-	margin-top: 10px;
-	background-color:#0d0d0d;
-	color: white;
-}
 #disclaimer {
 	background-color: #0d0d0d;
 	color: white;
+<<<<<<< HEAD
 }
 #continueButton {
 	text-align: center;
@@ -209,6 +212,9 @@
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 10px;
+=======
+	border:solid 1px;
+>>>>>>> 321a71fd93ffae8d0e60bf4a2ec415ce17f5ba58
 }
 .dropdown {
 	color: black;
