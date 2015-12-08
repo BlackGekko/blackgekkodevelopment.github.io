@@ -175,7 +175,61 @@
 #disclaimer {
 	background-color: #0d0d0d;
 	color: white;
+<<<<<<< HEAD
+}
+#continueButton {
+	text-align: center;
+	background-color:#0d0d0d;
+	color: white;
+	margin-top: 10px;
+}
+.announce {
+	text-align:center;
+	margin-top:50px;
+	padding:10px;
+	color:white;
+	margin-left:auto;
+	margin-right:auto;
+	width:1225px;
+	height:auto;
+	margin-bottom:20px;
+	background-color:#0d0d0d;
+	
+}
+.announce ul {
+	text-decoration: none;
+	text-align: center;
+	list-style: none;
+}
+.announce ul li {
+	text-decoration: none;
+	text-align: center;
+	list-style: none;
+}
+.tickets {
+	text-align:center;
+	margin-top:50px;
+	padding:10px;
+	color:white;
+	margin-left:auto;
+	margin-right:auto;
+	width:1225px;
+	height:auto;
+	margin-bottom:20px;
+	background-color:#0d0d0d;
+}
+.ticket h3 {
+	margin-bottom: 10px;
+}
+.ticket {
+	border: 2px solid white;
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+=======
 	border:solid 1px;
+>>>>>>> 321a71fd93ffae8d0e60bf4a2ec415ce17f5ba58
 }
 .dropdown {
 	color: black;
