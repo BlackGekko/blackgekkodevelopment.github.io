@@ -112,6 +112,18 @@
 	background-color:#0d0d0d;
 	border:solid;
 }
+.aboutInfo2 {
+	padding:10px;
+	text-align:center;
+	color:white;
+	margin-left:auto;
+	margin-right:auto;
+	width:1225px;
+	height:auto;
+	margin-bottom:20px;
+	background-color:#0d0d0d;
+	border:solid;
+}
 .pricingInfo {
 	text-align:center;
 	margin-top:50px;
