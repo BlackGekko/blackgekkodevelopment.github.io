@@ -27,7 +27,7 @@ function priceCalc() {
 		pagePrice = 150;
 	}
 	else if(pageAmount == 5) {
-		pagePrice == 200;
+		pagePrice = 200;
 	}
 	else if(pageAmount > 5) {
 		pagePrice = 300;
