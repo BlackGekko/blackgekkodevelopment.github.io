@@ -175,7 +175,6 @@
 #disclaimer {
 	background-color: #0d0d0d;
 	color: white;
-<<<<<<< HEAD
 }
 #continueButton {
 	text-align: center;
@@ -227,9 +226,7 @@
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 10px;
-=======
 	border:solid 1px;
->>>>>>> 321a71fd93ffae8d0e60bf4a2ec415ce17f5ba58
 }
 .dropdown {
 	color: black;
